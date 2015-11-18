@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LegoPiano</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="btn_piano">Piano</string>
+    <string name="btn_batterie">Batterie</string>
+    <string name="btn_karaoke">Karaoke</string>
+    <string name="game_text">Bienvenue sur LegoPiano !</string>
+    <string name = "game_instruments">Choisis ton instrument</string>
+    <string name="action_settings">Settings</string>
+    <string name="piano">piano</string>
+    <string name="nb_octaves">Nombre octaves</string>
+</resources>

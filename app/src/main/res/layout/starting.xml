@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@drawable/music">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/game_text"
+            android:layout_marginLeft="90dip"
+            android:layout_marginTop="80dip"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/instruments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/game_instruments"
+            android:layout_below ="@id/text"
+            android:layout_marginLeft="130dip"
+            android:layout_marginTop="30dip"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/piano"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "@string/btn_piano"
+            android:layout_marginTop="50dip"
+            android:layout_marginLeft="160dip"
+            android:layout_marginRight="80dip"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        <Button
+            android:id="@+id/batterie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "@string/btn_batterie"
+            android:layout_marginLeft="180dip"
+            android:layout_marginRight="60dip"
+            android:layout_marginTop="25dip"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <Button
+            android:id="@+id/karaoke"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "@string/btn_karaoke"
+            android:layout_marginLeft="200dip"
+            android:layout_marginRight="40dip"
+            android:layout_marginTop="25dip"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    </LinearLayout>
+</ScrollView>
